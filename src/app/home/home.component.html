@@ -1,0 +1,28 @@
+<div class="container">
+  <h1 class='text-center'>List Users</h1>
+    <table class="table table-striped">
+    <thead>
+        <tr>
+        <th scope="col">Id</th>
+        <th scope="col">FullName</th>
+        <th scope="col">Cpf</th>
+        <th scope="col">Email</th>
+        <th scope="col">Role</th>
+        <th scope="col">Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of userList">
+            <td>{{user.id}}</td>
+            <td>{{user.fullname}}</td>
+            <td>{{user.cpf}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.role}}</td>
+            <td>{{user.age}}</td>
+        </tr>
+  </tbody>
+  </table>
+</div>
+<div class="col text-center">
+    <button (click)="loggout()" class="btn btn-primary">Loggout</button>
+</div>

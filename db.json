@@ -1,0 +1,31 @@
+{
+    "users": [
+        {
+            "id": "uuid123",
+            "cpf": "99999999999",
+            "fullname": "Michael Jackson",
+            "role": "3",
+            "age": "50",
+            "email": "michaeljackson@gmail.com",
+            "password": "123456"
+        },
+        {
+            "id": "uuid12345",
+            "cpf": "88888888888",
+            "fullname": "Neymar",
+            "role": "2",
+            "age": "30",
+            "email": "neymar@gmail.com",
+            "password": "654321"
+        },
+        {
+            "id": "uuid12345678",
+            "cpf": "77777777777",
+            "fullname": "Messi",
+            "role": "1",
+            "age": "35",
+            "email": "messi@gmail.com",
+            "password": "987654"
+        }
+    ]
+}
